@@ -1,0 +1,11 @@
+.link {
+  @apply flex items-center text-lg border-b-2 border-transparent pb-2;
+}
+
+.link:hover:not(.active) {
+  @apply text-primary-400  border-primary-500;
+}
+
+.active {
+  @apply text-primary-500 bg-primary-50 border-primary-500;
+}

@@ -1,0 +1,25 @@
+.container {
+  @apply flex items-center gap-2;
+}
+
+.input {
+  @apply relative cursor-pointer;
+}
+
+.input::before,
+.input::after {
+  content: "";
+  @apply inline-block absolute rounded-full;
+}
+
+.input::before {
+  @apply -inset-0.5 bg-white border border-primary-500;
+}
+
+.input:checked:after {
+  @apply inset-0.5 bg-primary-500;
+}
+
+.label {
+  @apply text-sm cursor-pointer translate-y-px;
+}
