@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[1641],{1884:function(n,_,e){(window.__NEXT_P=window.__NEXT_P||[]).push(["/message/desktop/messages",function(){return e(4386)}])}},function(n){n.O(0,[1228,955,4617,1664,3329,4386,9774,2888,179],function(){return n(n.s=1884)}),_N_E=n.O()}]);

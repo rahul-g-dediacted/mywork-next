@@ -1,7 +1,0 @@
-.link:hover:not(.active) {
-  @apply text-blue-600;
-}
-
-.active {
-  @apply text-blue-500;
-}

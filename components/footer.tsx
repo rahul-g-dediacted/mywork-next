@@ -1,27 +1,27 @@
 // import { Link } from "react-router-dom";\
 import Link from "next/link";
 
-export function Footer() {
+export default function Footer() {
   return (
     <footer className="text-center py-12">
       <div className="flex items-center justify-center gap-3 mb-6">
-        <Link
+        <a
           className="text-blue-500 hover:text-blue-400 text-sm"
           href="/privacy-page"
         >
           Privacy
-        </Link>
+        </a>
         <span>&bull;</span>
-        <Link className="text-blue-500 hover:text-blue-400 text-sm" href="/terms-page">
+        <a className="text-blue-500 hover:text-blue-400 text-sm" href="/terms-page">
           Terms
-        </Link>
+        </a>
         <span>&bull;</span>
-        <Link
+        <a
           className="text-blue-500 hover:text-blue-400 text-sm"
           href="/support-page"
         >
           Support
-        </Link>
+        </a>
       </div>
       <p className="text-sm text-gray-500">
         Copyrights &copy; {new Date().getFullYear()} MyWork. All Rights Reserved

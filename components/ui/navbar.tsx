@@ -4,7 +4,7 @@ import { FiMenu } from "react-icons/fi";
 import Link from "next/link";
 import cx from "classnames";
 
-export function Navbar() {
+export default function Navbar() {
   const [mobileMenuVisible, setMobileMenuVisible] = useState(false);
 
   return (
